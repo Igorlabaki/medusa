@@ -16,7 +16,7 @@ export default function Carroucel() {
             {
                 fotos.map((foto: {src: string}, index: number) => {
                     return (
-                    <ImageComponent key={index} alt="foto" h="h-[20rem]" w="min-w-full" src={foto.src}/>
+                    <ImageComponent key={index} alt="foto" h="h-[26rem]" w="min-w-full" src={foto.src}/>
                     )
                 })
             }

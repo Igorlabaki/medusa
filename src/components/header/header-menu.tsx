@@ -32,7 +32,7 @@ export function HeaderMenu() {
               initial={{ translateX: "100%"}} 
               animate={{ translateX: "0%"}}  
               transition={{duration: 0.3}}
-              className='bg-black border-l-[0.085rem] border-slate-400  text-slate-400 h-full min-h-screen w-full relative gap-2 py-10 flex flex-col justify-between'
+              className='bg-black border-l-[0.085rem] border-slate-400  text-slate-400 h-full min-h-screen w-full relative gap-2 py-24 flex flex-col justify-between'
             >  
               <CloseButton/>
                 <div className='flex flex-col justify-between h-full items-center w-full text-sm'>

@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 export default function CloseButton() {
   return (
-    <div className='flex flex-col absolute right-4 top-2'>
+    <div className='flex flex-col absolute right-4 top-16'>
         <div className='relative p-2'>
             <motion.div  
                 animate={{rotate:-45}}
